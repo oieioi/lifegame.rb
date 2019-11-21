@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    lifegame (0.1.0)
+    lifegame (0.1.1)
 
 GEM
   remote: https://rubygems.org/
