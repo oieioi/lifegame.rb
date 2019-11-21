@@ -1,9 +1,10 @@
 # Lifegame
 
-[![demo](./demo.gif)](./demo.gif)
-
+Ruby CLI implementation of [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life).
 
 demo: `git clone` and `bundle install` and `bundle exec ./bin/demo`
+
+[![demo](./demo.gif)](./demo.gif)
 
 ## Installation
 
@@ -27,8 +28,8 @@ $ gem install lifegame
 ## Usage
 
 ```ruby
-# 100 x 100
-game = Lifegame::Lifegame.new(100, 100)
+# 20 x 50
+game = Lifegame::Lifegame.new(20, 50)
 
 # eg: grader
 game[2,7].be!; game[2,8].be!; game[2,9].be!; game[1,7].be!; game[0,8].be!
