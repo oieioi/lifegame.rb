@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["oieioi"]
   spec.email         = ["atsuinatsu.samuifuyu@gmail.com"]
 
-  spec.summary       = 'life game'
-  spec.description   = 'play life game!'
+  spec.summary       = "Conway's Game of Life"
+  spec.description   = "Conway's Game of Life"
   spec.homepage      = "https://github.com/oieioi/lifegame.rb"
   spec.license       = "MIT"
 
