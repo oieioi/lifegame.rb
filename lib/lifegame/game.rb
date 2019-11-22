@@ -1,7 +1,7 @@
 require_relative "./life"
 
 module Lifegame
-  class Lifegame
+  class Game
     include Enumerable
 
     def initialize(x, y)

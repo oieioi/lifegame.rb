@@ -1,11 +1,14 @@
 module Lifegame
   class Life
+    ALIVE = '-'
+    DEAD = '_'
+
     def initialize(life = false)
       @life = life
     end
 
     def to_s
-      alive? ? '.' : '-'
+      alive? ? ALIVE : DEAD
     end
 
     def alive?

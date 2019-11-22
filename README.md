@@ -29,7 +29,7 @@ $ gem install lifegame
 
 ```ruby
 # 20 x 50
-game = Lifegame::Lifegame.new(20, 50)
+game = Lifegame::Game.new(20, 50)
 
 # eg: grader
 game[2,7].be!; game[2,8].be!; game[2,9].be!; game[1,7].be!; game[0,8].be!

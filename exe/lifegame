@@ -2,6 +2,10 @@
 
 require 'lifegame'
 
-game = Lifegame::Lifegame.new(20, 50)
-game.sow!
+x = (ARGV[0] || 20).to_i
+y = (ARGV[1] || 50).to_i
+frequency = (ARGV[2] || 0.2).to_f
+
+game = Lifegame::Game.new(x, y)
+game.sow!(frequency)
 game.start

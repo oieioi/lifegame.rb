@@ -3,6 +3,6 @@
 require "bundler/setup"
 require "lifegame"
 
-game = Lifegame::Lifegame.new((ARGV[0] || 20).to_i, (ARGV[1] || 50).to_i)
+game = Lifegame::Game.new((ARGV[0] || 20).to_i, (ARGV[1] || 50).to_i)
 game.sow!((ARGV[2] || 0.2).to_f)
 game.start

@@ -1,5 +1,5 @@
 require "lifegame/version"
-require "lifegame/lifegame"
+require "lifegame/game"
 require "lifegame/life"
 
 module Lifegame
