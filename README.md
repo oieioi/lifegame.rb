@@ -49,7 +49,7 @@ game.sow!(0.2)
 game.start
 ```
 
-or on your shell
+or `gem install lifegame' and on your shell
 
 ```sh
 $ lifegame
