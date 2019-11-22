@@ -49,6 +49,12 @@ game.sow!(0.2)
 game.start
 ```
 
+or on your shell
+
+```sh
+$ lifegame
+```
+
 ## License
 
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
