@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require 'lifegame'
+
+game = Lifegame::Lifegame.new(20, 50)
+game.sow!
+game.start
